@@ -31,6 +31,9 @@ app.use("/api/v1/user", userRoute);
 app.use("/api/v1/post", postRoute);
 app.use("/api/v1/message", messageRoute);
 
+app.get("/", (req,res) => {
+    res.send(`<h1>Hey baby</h1>`);
+})
 
 app.use(express.static(path.join(__dirname, "/frontend/dist")));
 app.get("*", (req,res)=>{
