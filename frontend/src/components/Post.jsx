@@ -29,7 +29,8 @@ const Post = ({ post }) => {
             setText("");
         }
     }
-
+    
+    //like & dislike
     const likeOrDislikeHandler = async () => {
         try {
             const action = liked ? 'dislike' : 'like';
