@@ -7,6 +7,8 @@ import { Button } from './ui/button';
 import { Badge } from './ui/badge';
 import { AtSign, Heart, MessageCircle } from 'lucide-react';
 
+
+//profile
 const Profile = () => {
   const params = useParams();
   const userId = params.id;

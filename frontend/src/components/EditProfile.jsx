@@ -32,6 +32,7 @@ const EditProfile = () => {
     }
 
 
+    //edit profile handler
     const editProfileHandler = async () => {
         console.log(input);
         const formData = new FormData();

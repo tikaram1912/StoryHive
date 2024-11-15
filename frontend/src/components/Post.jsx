@@ -56,6 +56,9 @@ const Post = ({ post }) => {
         }
     }
 
+
+
+    //comment handler
     const commentHandler = async () => {
 
         try {
